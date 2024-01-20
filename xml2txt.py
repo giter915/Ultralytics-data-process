@@ -62,9 +62,8 @@ def VOC2Yolo(class_num, voc_img_path, voc_xml_path, yolo_txt_save_path, yolo_img
 
 if __name__ == '__main__':
     VOC2Yolo(
-        class_num={'airplane':0},  # 标签种类
-        voc_img_path=r'/Users/zy/Desktop/airplane-01/images', # 数据集图片文件夹存储路径
-        voc_xml_path=r'/Users/zy/Desktop/airplane-01/annotations', # 标签xml文件夹存储路径
-        yolo_txt_save_path=r'/Users/zy/Desktop/airplane-01//labels' # 将要生成的txt文件夹存储路径
+        class_num={'Electric-bicycle':0},  # 标签种类
+        voc_img_path=r'/Users/zy/Desktop/Dian/images', # 数据集图片文件夹存储路径
+        voc_xml_path=r'/Users/zy/Desktop/Dian/xmls', # 标签xml文件夹存储路径
+        yolo_txt_save_path=r'/Users/zy/Desktop/Dian/labels' # 将要生成的txt文件夹存储路径
     )
-
